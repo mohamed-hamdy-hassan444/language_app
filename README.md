@@ -1,16 +1,102 @@
-# language_app
+# 🌍 Language App – Flutter  
+A clean and simple Flutter mobile application that lets users explore and practice languages.  
+This project showcases a well-structured Flutter UI with basic learning functionality.
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features  
+- Browse a list of available languages  
+- View details for each language  
+- Practice basic vocabulary or words  
+- Clean and simple UI  
+- Responsive design  
+- Organized project architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Folder Structure  
+
+```
+lib/
+ ├─ models/
+ │   └─ language_model.dart
+ │
+ ├─ screens/
+ │   ├─ home_screen.dart
+ │   ├─ language_detail_screen.dart
+ │   └─ practice_screen.dart
+ │
+ ├─ widgets/
+ │   └─ language_card.dart
+ │
+ ├─ core/
+ │   └─ app_colors.dart
+ │
+ └─ main.dart
+```
+
+---
+
+## 🛠️ Technologies Used  
+- Flutter  
+- Dart  
+- Material UI  
+- Clean Architecture (UI Level)
+
+---
+
+## 📦 Installation  
+
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/mohamed-hamdy-hassan444/language_app.git
+```
+
+### 2️⃣ Navigate to the project  
+```bash
+cd language_app
+```
+
+### 3️⃣ Install dependencies  
+```bash
+flutter pub get
+```
+
+### 4️⃣ Run the application  
+```bash
+flutter run
+```
+
+---
+
+## 🔄 App Navigation Flow  
+- Home Screen → Select a Language  
+- Language Details → Practice Page  
+- Practice Page → Back to Home  
+
+---
+
+## 🎯 Purpose of This Project  
+This project demonstrates:
+
+- UI building skills  
+- Proper folder structure  
+- Ability to create simple learning apps  
+- Working with lists, navigation, and layout widgets  
+- Suitable for portfolios, CVs, and GitHub profiles  
+
+---
+
+## 👨‍💻 Developer  
+**Mohamed Hamdy Hassan**  
+Flutter Developer  
+GitHub: https://github.com/mohamed-hamdy-hassan444
+
+---
+
+## ⭐ Support  
+If you like this project, please give the repository a **star ⭐**  
+It helps a lot and supports the developer!
+
